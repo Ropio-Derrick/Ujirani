@@ -1,0 +1,71 @@
+.clear{
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #03365a;
+    height: 400px;
+    margin-top: 200px;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.icon{
+    font-size: 100px !important;
+    font-weight: 200 !important;
+    color: #ff8400;
+    line-height: 0;
+}
+
+.head4{
+    margin-top: 70px;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.head3{
+    margin-top: 10px;
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: 300;
+}
+
+.mt1btn{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-decoration: none;
+     padding: 5px 20px 10px 20px;
+     font-size: 20px;
+     font-weight: 500;
+     color: azure;
+     background-color: #ff8400;
+     border:none;
+     border-radius:15px ;
+     -webkit-border-radius:15px ;
+     -moz-border-radius:15px ;
+     -ms-border-radius:15px ;
+     -o-border-radius:15px ;
+     transition:all 0.3s ease ;
+     -webkit-transition:all 0.3s ease ;
+     -moz-transition:all 0.3s ease ;
+     -ms-transition:all 0.3s ease ;
+     -o-transition:all 0.3s ease ;
+     text-decoration: none;
+}
+
+.mt1btn:hover{
+    border:none;
+    color: #ff8400;
+    background-color: white;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}

@@ -1,14 +1,13 @@
-import logo from './logo.svg';
+import React from 'react';
+import Routing from './Components/router'
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-
-      </header>
-    </div>
-  );
+    return (
+       <div>
+         <Routing/>
+       </div>        
+   );
 }
-
+ 
 export default App;
