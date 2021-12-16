@@ -8,7 +8,7 @@ function Loginpage() {
             <form className="hospform">
                 <h1 className="head">Enter 
                  Service Code</h1>
-                <input className="inputspace" type="password" name="pin"  minlength="8"  /><br/>
+                <input className="inputspace" type="password" name="pin"  minlength="8" required /><br/>
                 
 
                 <Link to='/Plogin'className="stbtn" >Submit</Link>

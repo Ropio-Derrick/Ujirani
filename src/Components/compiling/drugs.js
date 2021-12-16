@@ -97,9 +97,9 @@ export default class DynamicTable extends React.Component {
                         </select>
                     </td>
                     <td><input type="Text"id="row-1-drug" /></td>
-                    <td><input type="Text" id="row-1-quantity" /></td>
-                    <td><input type="Text"id="row-1-price" /></td>
-                    <td id="row-1-total">456313</td>
+                    <td><input  type="number" id="row-1-quantity" /></td>
+                    <td><input  type="text" id="row-1-price" /></td>
+                    <td id="row-1-total" className='totals'></td>
                     <td>
                   </td>
                   <td>
@@ -119,7 +119,7 @@ export default class DynamicTable extends React.Component {
       <div className="left">
         <table >
           <thead>
-            <tr>
+            <tr className='headings'>
                 <th className="number">Code</th>
                 <th className="text">Drug Issued</th>
                 <th className="number">Quantity</th>
@@ -133,16 +133,10 @@ export default class DynamicTable extends React.Component {
         </table>
         <hr/>
         <div className="buttons">
-            <button className="button1"
-            onClick={this.handleClick.bind(this)}
-            >
+            <button className="button1" onClick={this.handleClick.bind(this)} >
             Add Prescription
             </button>
-            <button className="button3"
-            onClick={this.handleClick.bind(this)}
-            >
-            Grand Total
-            </button>
+
         </div>
       </div>
     );

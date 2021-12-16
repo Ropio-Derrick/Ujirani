@@ -21,7 +21,9 @@ function dashboard() {
                 <div className="statuscheck1">
                    <h1 className="name1">New Balance</h1>
                     <h1 className="figure2">3,000ksh</h1>
+                
                 </div>
+                
                 <Link to='/Clear'className="btn" margin="0px 10px 0px 0px">Submit</Link>
 
             

@@ -1,9 +1,9 @@
 .Container{
     background-color: #fff;
-    height: 500px;
+    height: 450px;
     width: 70%;
     margin-left: 15%;
-    margin-top: 50px;
+    margin-top: 100px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -11,6 +11,10 @@
     -o-border-radius: 4px;
     -webkit-box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.165); 
     box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.165);
+}
+
+.Personalinfo div{
+    display: flex;
 }
 
 .values{
@@ -21,17 +25,37 @@
     font-weight: 500;
 }
 
+.value{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 17px;
+    font-size: 15px;
+    color: #ff8400;
+    font-weight: 500;
+}
+
 .Heads{
     padding-top: 30px;
     color: #ff8400;
     text-align: center;
 }
 
+hr{
+    margin-top: 10px;
+    width: 40%;
+    margin-left: 30%;
+    background-color: #03365a;
+    outline: none;
+    height: 1px;
+    border: none;
+
+}
+
 .info2{
     height: 350px;
     box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.165);
     margin-left:5%;
-    margin-top: 10px;
+    margin-top: 0px;
     width: 90%;
  
 }
@@ -59,15 +83,20 @@
     color: #03365a;
     text-align: center;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .Active{
-    margin-right: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ddd;
+
 }
 
 .display{
-    margin-top: 10px;
+
+    margin-top: 25px;
     display: flex;
     align-items: center;
     margin-left: 50px;
@@ -88,34 +117,35 @@
 }
 
 .smttext{
-    margin-top: 30px;
+    margin: 30px;
+    top: 0;
     display: flex;
-    height: 30px;
     align-items: center;
-    justify-content: center;
-    margin-left: 40%;
-    padding: 4px 10px 10px 10px;
-    font-size: 20px;
-    font-weight: 400;
-    color: azure;
-    background-color: blue;
-    border:none ;
-    border-radius:10px ;
-    -webkit-border-radius:10px ;
-    -moz-border-radius:10px ;
-    -ms-border-radius:10px ;
-    -o-border-radius:10px ;
-    transition:all 0.3s ease ;
-    -webkit-transition:all 0.3s ease ;
-    -moz-transition:all 0.3s ease ;
-    -ms-transition:all 0.3s ease ;
-    -o-transition:all 0.3s ease ;
     text-decoration: none;
+    margin-left: 40%;
+     padding: 10px 25px 10px 25px;
+     font-size: 20px;
+     font-weight: 500;
+     color: azure;
+     background-color: #ff8400;
+     border:none;
+     border-radius:15px ;
+     -webkit-border-radius:15px ;
+     -moz-border-radius:15px ;
+     -ms-border-radius:15px ;
+     -o-border-radius:15px ;
+     transition:all 0.3s ease ;
+     -webkit-transition:all 0.3s ease ;
+     -moz-transition:all 0.3s ease ;
+     -ms-transition:all 0.3s ease ;
+     -o-transition:all 0.3s ease ;
+     text-decoration: none;
 }
 
 .smttext:hover{
-    color: azure;
-    background-color: rgba(0, 0, 255, 0.761);
+    border:none;
+    color: #ff8400;
+    background-color: #03365a;
     transition: all 0.5s ease;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -124,8 +154,8 @@
 }
 
 .statusinfo{
-    display: flex;
-    justify-content: space-between;
+    margin-top:0px ;
+
 }
 
 .statuscheck{
@@ -143,7 +173,7 @@
 }
 
 .statuscheck1{
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .statuscheck2{

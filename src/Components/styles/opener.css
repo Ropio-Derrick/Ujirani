@@ -1,5 +1,9 @@
+.container{
+ display: grid;
+ grid-template-columns: 50% 50%;
+}
+
 .welcomehead{
-    color:#062437;
     font-size: 50px;
 }
 
@@ -52,10 +56,7 @@
 
 /* Water Animation */
 
-body {
-  width: 100%;
-  height: 100%;
-}
+
 .loading, .loading2 {
   text-transform: uppercase;
   font-family: 'Lexend Deca', sans-serif;
@@ -111,3 +112,17 @@ body {
     font-size: 50pt;
   }
 }
+
+
+/* image */
+.image{
+
+  margin-top: 150px;
+  background-image: url(../../image/ujirani\ logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 350px;
+  z-index: 9;
+}
+

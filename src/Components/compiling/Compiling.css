@@ -40,9 +40,21 @@ select, input{
 }
 
 .total{
-    padding-right: 30px;
+    padding-right: 30px;  
+}
+.totals{
+    border: 1px solid #03365a31 ;
+}
 
+.headings{
+    background-color: #03365a;
+    color: #fff;
     
+}
+
+.number,.text, .total{
+    width: 130px;
+    font-weight: 400;
 }
 
 .button2{
